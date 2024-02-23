@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "phenodigm-api"
+version = "0.1.0"
+description = "Test API for fetching Phenodigm data from the Disease Model portal"
+authors = ["dpavam <hhz161@qmul.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.109.2"
+cachetools = "^5.3.2"
+polars = "^0.20"
+pydantic = "^2.6.1"
+uvicorn = "^0.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
